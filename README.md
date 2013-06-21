@@ -37,3 +37,5 @@ jQuery(function($) {
 });
 </script>
 ```
+
+To make the number prettier, [jQuery Number Plugin](https://github.com/teamdf/jquery-number) come to the rescue, thanks to this plugin, we can now do number formatting, please checkout their page for more information.
