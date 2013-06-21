@@ -46,6 +46,7 @@
 		}
 		
 		this.go = function(step) {
+			finish();
 			var el = $(this);
 			interv = setInterval(function() {
 				run(el, step);
