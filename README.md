@@ -4,12 +4,27 @@ jQuery Plugin for displaying counter
 
 ## Getting Started
 
-In your web page:
+Create the DIV container to display the counter
 
 ```html
 <div id="counter">0</div>
-<script src="jquery.js"></script>
+```
+
+Then load the jQuery
+
+```html
+<script type="text/javascript" src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+```
+
+Then load the counter jQuery plugin
+
+```html
 <script src="jquery.launchly-counter.js"></script>
+```
+
+Then start calling the counter
+
+```html
 <script>
 jQuery(function($) {
   var counter = $('#counter').launchlyCounter({
